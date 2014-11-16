@@ -20,15 +20,6 @@ Read activity.csv from current working directory
 activity <- read.csv("activity.csv")
 ```
 
-```
-## Warning in file(file, "rt"): cannot open file 'activity.csv': No such file
-## or directory
-```
-
-```
-## Error in file(file, "rt"): cannot open the connection
-```
-
 ### 2. What is mean total number of steps taken per day?
 Calculate total steps with NAs removed
 
