@@ -14,10 +14,10 @@ output: html_document
 
 
 ### 1. Loading and preprocessing the data
-Read activity.csv from current working directory
+Read activity.csv
 
 ```r
-activity <- read.csv("activity.csv")
+activity <- read.csv("d:/github/pa1/activity.csv")
 ```
 
 ### 2. What is mean total number of steps taken per day?

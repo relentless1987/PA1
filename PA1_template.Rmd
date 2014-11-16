@@ -12,6 +12,7 @@ options(digits=2)
 
 ```{r, include=FALSE}
 library(lattice)
+library(knitr)
 ```
 
 ```{r global_options, echo=TRUE}
@@ -20,9 +21,9 @@ library(lattice)
 
 
 ### 1. Loading and preprocessing the data
-Read activity.csv from current working directory
+Read activity.csv
 ```{r}
-activity <- read.csv("activity.csv")
+activity <- read.csv("d:/github/pa1/activity.csv")
 
 ```
 
